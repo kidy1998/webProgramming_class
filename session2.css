@@ -1,0 +1,42 @@
+/* body {
+    background-image: url("image1.jpg");
+} */
+
+#list1 {
+    background-color: aquamarine;
+    font-weight: bold;
+    font-style:italic 
+   
+}
+
+#list2 {
+    color: blue;
+    border: 1px dotted black;
+    border-top: 3px solid red;
+    letter-spacing: 5px;
+}
+
+#div_1 {
+    width: 50%;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.dogImage {
+    background-image: url(image/dogImage.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 30vw;
+    height: 30vh;
+}
+
+
+li {
+    list-style-type: none;
+    background-position: left center;
+    background-image: url(image/todoList.png);
+    margin-left: 40px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+}

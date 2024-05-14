@@ -1,0 +1,77 @@
+a {
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+th,td {
+    border: 2px dashed black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse; 
+    /* 두 개의 인접한 셀이 하나의 border로 표시됨 */
+    width: 50%;
+    height: auto;
+
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+tr :hover {
+    background-color: aqua;
+}
+
+ul {
+    width: 50%;
+    list-style-type:  lower-roman;
+    
+}
+
+li {
+    border: 1px solid black;
+}
+
+li:hover {
+    font-weight: bolder;
+}
+
+
+div h3 {
+    color: violet;
+}
+
+div + h3 {
+    color: violet;
+    /* 이렇게 하면 div 바로 뒤에 붙어오는 h3만 태그 적용 */
+}
+
+
+#div1 {
+    border: 2px solid peru;
+    width: 700px;
+    background-color: beige;
+}
+
+.col {
+    float: left;
+    width: 300px;
+}
+
+.selfClear::after {
+    content: "";
+    clear:both;
+    display: block;
+}

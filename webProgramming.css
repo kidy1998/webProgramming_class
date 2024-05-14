@@ -1,0 +1,40 @@
+
+#prg {
+    color: pink;
+}
+
+.classTest {
+    background-color: brown;
+    font-size: 100px;
+}
+
+#rainbow {
+    background-image: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.div1 {
+    background-color: peru;
+    background-image: linear-gradient(to bottom ,peru, yellow);
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.div2 {
+    background-color: peru;
+    background-image: linear-gradient(20deg ,blue, red);
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+
+div > p {
+    color: brown;
+}
